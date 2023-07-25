@@ -80,6 +80,16 @@ min-height: 300px;
 .services .card-body i{
     font-size: 50px;
 }
+.team .card-body i{
+    font-size: 20px;
+}
+
+.portfolio .card{
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.team .card{
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
 
 
 
@@ -93,6 +103,19 @@ min-height: 300px;
 
     .carousel-caption p{
         width: 100%;
+    }
+
+    .card{
+        margin-bottom: 20px;
+    }
+
+    .img-area img{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .about-text{
+        padding-bottom: 50px;
     }
 }
 @media only screen and (max-width:767px){
@@ -115,5 +138,18 @@ min-height: 300px;
         width: 100%;
         font-size: 12px;
         line-height: 1.6;
+    }
+
+    .card{
+        margin-bottom: 20px;
+    }
+
+    .img-area img{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .about-text{
+        padding-bottom: 50px;
     }
 }
